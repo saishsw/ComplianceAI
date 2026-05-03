@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI-powered election compliance platform for FEC and Arizona state filings">
+  <title>ComplianceAI — Election Finance Compliance</title>
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <div class="logo-icon">⚡</div>
+          <span class="logo-text">ComplianceAI</span>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="nav-section-label">Overview</div>
+        <div class="nav-item active" data-page="dashboard" onclick="navigate('dashboard')">
+          <span class="icon">📊</span> Dashboard
+        </div>
+
+        <div class="nav-section-label">Filing Management</div>
+        <div class="nav-item" data-page="filings" onclick="navigate('filings')">
+          <span class="icon">📋</span> All Filings
+        </div>
+        <div class="nav-item" data-page="new-filing" onclick="navigate('new-filing')">
+          <span class="icon">＋</span> New Filing
+        </div>
+
+        <div class="nav-section-label">Compliance</div>
+        <div class="nav-item" data-page="az-rules" onclick="navigate('az-rules')">
+          <span class="icon">⚖️</span> Arizona Rules
+        </div>
+        <div class="nav-item" data-page="deadlines" onclick="navigate('deadlines')">
+          <span class="icon">📅</span> Deadlines
+        </div>
+
+        <div class="nav-section-label">Activity</div>
+        <div class="nav-item" data-page="audit" onclick="navigate('audit')">
+          <span class="icon">🔒</span> Audit Log
+        </div>
+      </nav>
+      <div class="sidebar-footer">ComplianceAI v1.0 Prototype</div>
+    </aside>
+
+    <main class="main-content" id="main-content"></main>
+  </div>
+
+  <div class="modal-overlay" id="modal-overlay" onclick="closeModal(event)">
+    <div class="modal" id="modal-content"></div>
+  </div>
+
+  <script src="/js/az-rules.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

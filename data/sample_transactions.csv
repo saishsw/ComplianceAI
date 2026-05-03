@@ -1,0 +1,13 @@
+date,name,type,amount,purpose,address,occupation
+2024-01-10,Jane Martinez,contribution,2500.00,Campaign contribution,1234 E Camelback Rd Phoenix AZ 85016,Attorney
+2024-01-18,Desert Digital Media LLC,expenditure,5000.00,Political advertising – digital campaign ads,,
+2024-01-25,Robert Chen,contribution,1000.00,Individual donation,456 N Scottsdale Rd Scottsdale AZ 85251,Software Engineer
+2024-02-05,Campaign Consulting Group,expenditure,7500.00,Campaign strategy consulting,,
+2024-02-12,Valley Printing Co,expenditure,3200.00,Printing campaign mailers,,
+2024-02-20,Sarah Johnson,contribution,150.00,Small individual donation,,
+2024-03-01,AZ Business PAC,contribution,10000.00,PAC contribution,789 W Washington St Phoenix AZ 85003,
+2024-03-05,Office Depot,expenditure,800.00,Office supplies,,
+2024-03-10,Maria Garcia,contribution,5200.00,Campaign contribution,321 S Mill Ave Tempe AZ 85281,Physician
+2024-03-15,Radio KPHO,expenditure,4500.00,Campaign radio advertising 30 spots,,
+2024-03-20,Acme Corporation,contribution,6200.00,Corporate donation,100 Industrial Blvd Phoenix AZ 85004,N/A Corporation
+2024-03-25,Tom Wilson,contribution,250.00,Voter registration donation,555 E University Dr Mesa AZ 85203,Retired Teacher
